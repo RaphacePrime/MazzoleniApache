@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Mazzolenileggi
+comment1.params=request\ response
+comment1.target=void\ doGet(jakarta.servlet.http.HttpServletRequest,\ jakarta.servlet.http.HttpServletResponse)
+numComments=2

@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:11:29:54 +0100] "GET /mazzoleniverifica HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:11:29:54 +0100] "GET /mazzoleniverifica/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:11:34:13 +0100] "GET /mazzoleniverifica/mazzoleniscrivi?nome=CallofDuty&marca=Activision&prezzo=69&sconto=70 HTTP/1.1" 200 140
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:11:34:19 +0100] "GET /mazzoleniverifica/mazzolenileggi HTTP/1.1" 200 671
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:11:34:26 +0100] "GET /mazzoleniverifica/mazzolenisconto HTTP/1.1" 200 555
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:11:58:31 +0100] "GET /mazzoleniverifica HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:11:58:31 +0100] "GET /mazzoleniverifica/ HTTP/1.1" 200 777
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:11:58:33 +0100] "GET /mazzoleniverifica/ HTTP/1.1" 200 777
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:11:58:33 +0100] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:11:58:35 +0100] "GET /mazzoleniverifica/ HTTP/1.1" 200 777
+0:0:0:0:0:0:0:1 - - [21/Dec/2021:11:58:35 +0100] "GET /favicon.ico HTTP/1.1" 200 21630
