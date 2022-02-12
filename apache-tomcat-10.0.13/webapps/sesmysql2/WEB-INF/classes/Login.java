@@ -88,17 +88,7 @@ public class Login extends HttpServlet {
                 out.println("<td>"+rs.getString("usr")+"</td>");
                 out.println("<td>"+rs.getString("psw")+"</td>");
                 out.println("</tr>");
-                if (request.getParameter("usr").equals("professore") && 
-                request.getParameter("psw").equals("professore"))
-                {
-                    out.println("Accesso consentito.....");
-                    sessione=request.getSession(true);
-                    out.println(""+sessione);
-                    sessione.setAttribute("utente",request.getParameter("usr"));
-                    //redirect;
-                    response.sendRedirect("admin");
-                }
-                else if (request.getParameter("usr").equals(rs.getString("usr")) && 
+                if (request.getParameter("usr").equals(rs.getString("usr")) && 
                 request.getParameter("psw").equals(rs.getString("psw")))
                 {
                     out.println("Accesso consentito.....");

@@ -34,3 +34,9 @@
 0:0:0:0:0:0:0:1 - - [15/Jan/2022:09:42:43 +0100] "GET /sesmysql/login?usr=RaphacePrime&psw=raphace HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [15/Jan/2022:09:42:43 +0100] "GET /sesmysql/protetta HTTP/1.1" 200 136
 0:0:0:0:0:0:0:1 - - [15/Jan/2022:09:42:52 +0100] "GET /sesmysql/protetta HTTP/1.1" 200 136
+0:0:0:0:0:0:0:1 - - [15/Jan/2022:09:46:08 +0100] "GET /sesmysql HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [15/Jan/2022:09:46:08 +0100] "GET /sesmysql/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Jan/2022:09:46:20 +0100] "GET /sesmysql/login?usr=RaphacePrime&psw=raphace HTTP/1.1" 500 252
+0:0:0:0:0:0:0:1 - - [15/Jan/2022:09:46:29 +0100] "GET /sesmysql/login?usr=RaphacePrime&psw=raphace HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [15/Jan/2022:09:46:29 +0100] "GET /sesmysql/protetta HTTP/1.1" 200 136
+0:0:0:0:0:0:0:1 - - [15/Jan/2022:09:46:37 +0100] "GET /sesmysql/protetta HTTP/1.1" 200 136
