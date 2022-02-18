@@ -1,4 +1,3 @@
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import jakarta.servlet.ServletException;
@@ -38,8 +37,18 @@ public class Login extends HttpServlet {
         out.println("<head>");
         out.println("<title>Sessioni</title>");
         out.println("</head>");
-        out.println("<body bgcolor=\"lightgreen\">");
+        out.println("<body bgcolor=\"red\">");
         //CONNESSIONE AL DATABASE
+        if (request.getParameter("usr").equals("professore")&& 
+                request.getParameter("psw").equals("professore"))
+                {
+                    out.println("Accesso consentito.....");
+                    sessione=request.getSession(true);
+                    out.println(""+sessione);
+                    sessione.setAttribute("professore",request.getParameter("usr"));
+                    //redirect;
+                    response.sendRedirect("admin");
+                }
         try {
            //Class.forName("org.mariadb.jdbc.Driver");
             Class.forName("com.mysql.jdbc.Driver");
@@ -61,7 +70,7 @@ public class Login extends HttpServlet {
         
         out.println("<!DOCTYPE html><html>");
         out.println("<head>");
-        out.println("<title>Sessioni</title>");
+        out.println("<title>ARGO ScuolaPast</title>");
         out.println("</head>");
         out.println("<body bgcolor=\"white\">");
         
@@ -88,6 +97,8 @@ public class Login extends HttpServlet {
                 out.println("<td>"+rs.getString("usr")+"</td>");
                 out.println("<td>"+rs.getString("psw")+"</td>");
                 out.println("</tr>");
+                
+                
                 if (request.getParameter("usr").equals(rs.getString("usr")) && 
                 request.getParameter("psw").equals(rs.getString("psw")))
                 {
