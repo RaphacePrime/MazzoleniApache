@@ -30,4 +30,41 @@
         <url-pattern>/admin</url-pattern>
     </servlet-mapping>
 
+<servlet>
+        <servlet-name>Admininsert</servlet-name>
+        <servlet-class>Admininsert</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Admininsert</servlet-name>
+        <url-pattern>/admininsert</url-pattern>
+    </servlet-mapping>
+
+<servlet>
+        <servlet-name>Admindelete</servlet-name>
+        <servlet-class>Admindelete</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Admindelete</servlet-name>
+        <url-pattern>/admindelete</url-pattern>
+    </servlet-mapping>
+
+<servlet>
+        <servlet-name>Adminupdate</servlet-name>
+        <servlet-class>Adminupdate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Adminupdate</servlet-name>
+        <url-pattern>/adminupdate</url-pattern>
+    </servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>Registrazione</servlet-name>
+        <servlet-class>Registrazione</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Registrazione</servlet-name>
+        <url-pattern>/registrazione</url-pattern>
+    </servlet-mapping>
+
 </web-app>
